@@ -9730,7 +9730,7 @@ GettingStarted
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200918075604292" list="[[Luna-Earth Communication Array]] Timeline" modified="20200918090206093" title="$:/StoryList">
+<div created="20200918075604292" list="[[Luna-Earth Communication Array]] Timeline" modified="20200918102855062" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10002,7 +10002,7 @@ As the colony was powered by nuclear fission, there was no need for it to be in 
 
 In the year 2045, a series of mines were established on the lunar surface, to support the growing manufacturing facilities of the Luna colonies.</pre>
 </div>
-<div bag="default" created="20200628043130892" modified="20200918102852547" revision="0" tags="luna [[21st century]] colony colonisation communication" title="Luna-Earth Communication Array" type="text/vnd.tiddlywiki">
+<div bag="default" created="20200628043130892" modified="20200918110003803" revision="0" tags="luna [[21st century]] colony colonisation communication" title="Luna-Earth Communication Array" type="text/vnd.tiddlywiki">
 <pre>!! Summary
 
 The Luna-Earth Communication Array (LECA) is a series of geostationary satellites which, in junction with a large dish array on the Luna surface, provide a stable data connection between Earth and the Luna colonies. Shortly after the establishment of [[Luna Colony Alpha]], a consistent data connection between the colony and Earth was required.
@@ -10011,6 +10011,8 @@ The Luna-Earth Communication Array (LECA) is a series of geostationary satellite
 
 During the proposal of colony Alpha, it was quickly realised that any serious colony would require a suitable connection to the Earth's internet to be viable in anything more than a scientific achievement. Work towards this goal happened alongside the development of the first colony. 
 
+The first set of ring satellites was established in 2042, but the final communication array was finally finished in 2052
+
 !! Design
 
 The design of this array relies on communication satellites which operate on a data transfer rate of 10 Tb/s at a range of 42,000 km, otherwise known as geostationary orbit radius. Luna orbits 8.3 times the geostationary orbit radius of earth, which means to use the satellites effectively, 8 rings of them were to be established as concentric orbits around Earth. To maintain the correct distance between satellites, each ring needs to contain 6 more satellites than the one before it, with the initial ring containing 6. The formula for the total number of satellites required is:
@@ -10018,6 +10020,16 @@ The design of this array relies on communication satellites which operate on a d
 * 3n^2 + 3n, where n is the number of rings
 
 For 8 rings, that is 216 satellites. 
+
+In combination with this primary section of the array, there is also the secondary section consisting of 6 satellites in high Luna orbit (2000km), which allow [[Luna Colony Alpha]], on the far side of Luna, to maintain connection to the primary section.
+
+Obviously, the entire array could not be established at the same time as Colony Alpha, so the satellites were designed to operate at a longer range, at reduced capacity. The deployment process involved:
+
+* 1 satellite at each ring, with an additional one in Luna orbit.
+* 1 satellite was added to each concentric ring until the pattern reflected ring values (1,2,3,4,5,6,7,8)
+* this process was repeated, with each consecutive value (2,4,6,8,10,12,14,16) up to the correct ring values (6,12,18,24,30,36,42,48)
+
+With each step in the deployment process, the collective transfer rates between Earth and the Luna Colonies increased.
 
 </pre>
 </div>
