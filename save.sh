@@ -1,3 +1,4 @@
 git add -A
 git commit -m "saving changes"
-git push origin master
+git pull
+git push
